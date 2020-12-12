@@ -13,7 +13,7 @@ public class addToCartPage {
 		System.out.println(itemName);
 		selectedItem.click();
 		driver.findElement(By.xpath("//button[text()='ADD TO CART']")).click();
-		return itemName;
+		return itemName;//return
 		
 	}
 
