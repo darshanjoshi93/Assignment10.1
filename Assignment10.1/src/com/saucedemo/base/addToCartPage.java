@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 public class addToCartPage {
 	
 	public static String addItemToCart(WebDriver driver, String ProductName) {
-		// TODO Auto-generated method stub
+		
 		WebElement selectedItem = driver.findElement(By.xpath("//div[text()='"+ProductName+"']"));
 		String itemName = selectedItem.getText();
 		System.out.println(itemName);
